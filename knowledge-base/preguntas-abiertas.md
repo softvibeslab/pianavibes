@@ -11,6 +11,10 @@ visibility: internal
 
 ## Fuentes derivadas que no son canónicas
 
+### `notebooklm/`
+
+Contiene 14 salidas generadas que repiten la misma narrativa con distinta forma. No son corroboraciones independientes. Véase la [auditoría completa](notebooklm-audit.md). En particular, no usar como hechos los estados del CSV, las “Reglas Sentinel”, la supuesta aprobación de Hermes/DAO, la mezcla con Enrique Viana ni las biografías sin fuente original.
+
 ### `segundo-cerebro-piana.md`
 
 Combina elementos reales del chat con una biografía extensa no respaldada por las fuentes primarias disponibles. También incorpora una zarzuela de **Enrique Viana**, homónimo distinto, dentro del universo de Enrique Piana. No debe indexarse como verdad.
@@ -32,6 +36,7 @@ El grafo es útil para explorar relaciones, pero ingirió los dos derivados ante
 - “Ego-dultos” como término creado por Enrique y su definición canónica.
 - Registro, patente o manifiesto formal de “Cine Poesía 7”.
 - Las siete reglas atribuidas a Cine Poesía 7.
+- “Reglas Sentinel” como denominación oficial.
 - Lista completa, país, año y estado de las siete películas de la Septemlogía.
 - Detalles de Amor 7 Cabo de Gata y Amor 7 Antigua Guatemala.
 - Niñalma, Niñhada, velocidad de 177 km/h y música de Max Martínez.
@@ -50,6 +55,8 @@ Estas materias pueden añadirse al canon cuando exista entrevista directa, docum
 - ¿Romeo 1597 – Giulietta 2027 mantiene rodaje en septiembre de 2027, ruta, equipo e inversores pendientes?
 - ¿Enrique aprobó, rechazó o modificó la propuesta de ecosistema Hermes de Roger?
 - ¿Qué medios cuentan con consentimiento explícito para publicación, entrenamiento o generación derivada con IA?
+- ¿Cuáles son las fuentes originales concretas del cuaderno NotebookLM para cada afirmación biográfica y judicial?
+- ¿Qué fuente primaria define, si existen, las reglas oficiales de Cine Poesía 7?
 
 ## Información faltante del export
 

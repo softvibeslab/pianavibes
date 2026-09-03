@@ -13,6 +13,7 @@ visibility: internal
 - **Arte colaborativo**: creación en la que participantes, músicos, fotógrafos, animadores, patrocinadores y otros colaboradores forman parte de la obra y su proceso.
 - **Cine Poesía**: nombre que Enrique usa en el tráiler de Isola Bella para describir su práctica audiovisual. El corpus no contiene una definición formal ni siete reglas canónicas.
 - **DAO**: organización autónoma descentralizada. En el audio de Roger es una fase eventual de gobernanza, posterior a agentes útiles y economía comprobable; no es un proyecto aprobado por Enrique.
+- **DERIVADO_NOTEBOOKLM**: salida generada por NotebookLM a partir de otras fuentes. Sirve como pista o propuesta, no como confirmación independiente.
 - **Hermes**: plataforma/agente a la que Roger vincula su propuesta de podcast, comunidad, formación y agentes. En esta base, “agente Hermes” se refiere a Piana Memoria Viva.
 - **Kike**: creador con quien dialoga Pepito en el Cómic N.º 3. Su equivalencia exacta con Enrique es una inferencia pendiente de confirmación.
 - **Maledetto**: personaje de Amor 7 Isola Bella interpretado por Javi.
@@ -21,6 +22,7 @@ visibility: internal
 - **Mundego**: figura que aparece en la portada del Cómic N.º 2 frente a Pepito. El corpus no aporta una ficha narrativa completa.
 - **Pepito Sentinfante**: personaje infantil de siete años, vestido de azul con un 7 amarillo, cuyo lema documentado es “No lucha. Transforma.”
 - **Piana Memoria Viva**: nombre funcional del agente curador; no es Enrique ni un representante autorizado para hablar o actuar en su nombre.
+- **Enrique Viana**: director vinculado a zarzuela que aparece en el cuaderno NotebookLM. Es un homónimo distinto y no debe fusionarse con Enrique Piana.
 - **Roger GV**: interlocutor de Enrique en el chat y colaborador tecnológico/creativo que presenta la propuesta del ecosistema Hermes.
 - **Septemlogía**: término usado por Enrique para la primera etapa de Amor 7, compuesta según sus textos por siete películas, siete países y siete años.
 - **SOUL**: archivo de persona de Hermes que define identidad, conducta, fuentes y límites del agente.
@@ -32,6 +34,8 @@ visibility: internal
 - **PLAN**: intención, convocatoria, fecha prevista o proyecto futuro; no equivale a ejecución.
 - **INFERENCIA**: conclusión interpretativa que no aparece como afirmación directa.
 - **NO VERIFICADO**: procede sólo de un derivado o carece de fuente disponible.
+- **FUENTE_SECUNDARIA**: información atribuida a prensa, libro o investigación externa; requiere conservar autor, fecha y contexto.
+- **DERIVADO_NOTEBOOKLM**: contenido sintetizado por una IA desde fuentes que pueden ser heterogéneas o contaminadas.
 
 ## Tipos de archivo
 

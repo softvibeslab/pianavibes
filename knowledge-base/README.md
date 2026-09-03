@@ -1,5 +1,5 @@
 ---
-title: Base de conocimiento Piana para Hermes
+title: Base de conocimiento Piana para Hermes v2
 owner: Roger GV
 last_reviewed: 2026-09-03
 review_cadence: 90 days
@@ -7,7 +7,7 @@ source_cutoff: 2026-08-24
 visibility: mixed
 ---
 
-# Base de conocimiento Piana para Hermes
+# Base de conocimiento Piana para Hermes v2
 
 Esta carpeta convierte el archivo de conversación y sus medios en una fuente consultable, trazable y segura para un agente experto en el universo creativo documentado de Enrique Piana.
 
@@ -19,6 +19,7 @@ El repositorio no contiene una aplicación ni código de producto. Es un corpus 
 - `media/`: 23 adjuntos presentes en la exportación: 3 fotografías, 7 stickers, 7 videos y 6 audios.
 - `graphify-out/`: grafo y transcripciones generados anteriormente. Sirven como ayuda de navegación, no como fuente canónica.
 - `segundo-cerebro-piana.md` y `respuesta-resumen-piana.txt`: síntesis previas con afirmaciones que no siempre se pueden rastrear al corpus disponible.
+- `notebooklm/`: 14 artefactos exportados de NotebookLM: 4 PDF, 5 resúmenes de audio, 1 video-resumen, 2 infografías, 1 CSV y 1 Markdown. Son productos derivados de un cuaderno de 78 fuentes; no constituyen 14 corroboraciones independientes ni sustituyen a sus fuentes originales.
 
 ## Documentos canónicos
 
@@ -28,6 +29,8 @@ El repositorio no contiene una aplicación ni código de producto. Es un corpus 
 4. [Preguntas abiertas](preguntas-abiertas.md): afirmaciones pendientes de verificación y errores del material derivado.
 5. [SOUL para Hermes](SOUL.md): prompt listo para usar como identidad del agente.
 6. [Glosario](glosario.md): nombres, estados y términos con una definición única.
+7. [Auditoría de NotebookLM](notebooklm-audit.md): inventario de los 14 derivados, contaminación detectada y reglas de ingestión.
+8. [Corpus público mínimo](piana-publico.md): archivo seguro para un agente expuesto a personas no autenticadas.
 
 ## Contrato de verdad
 
@@ -38,6 +41,7 @@ El agente debe usar esta jerarquía:
 3. **Canon curado**: [Canon de Piana](piana-canon.md), que resume las fuentes anteriores sin añadir una biografía externa.
 4. **Inferencia**: interpretación razonable, pero debe rotularse como tal.
 5. **Derivados anteriores**: `segundo-cerebro-piana.md`, `respuesta-resumen-piana.txt` y `graphify-out/`. Nunca deben resolver un conflicto contra una fuente primaria.
+6. **Derivados de NotebookLM**: todo `notebooklm/`. Pueden sugerir pistas o formatos creativos, pero una afirmación sólo asciende al canon cuando se localiza y verifica su fuente original.
 
 Etiquetas recomendadas al responder:
 
@@ -46,6 +50,7 @@ Etiquetas recomendadas al responder:
 - `PLAN`: intención, convocatoria, fecha prevista o proyecto futuro.
 - `INFERENCIA`: lectura del agente, no afirmación textual.
 - `NO VERIFICADO`: procede sólo de un derivado o falta la fuente.
+- `DERIVADO_NOTEBOOKLM`: síntesis generada; no es confirmación independiente.
 
 ## Privacidad y publicación
 
@@ -60,9 +65,11 @@ La conversación incluye datos personales sobre salud, dinero, alojamiento, plan
 
 Hermes admite `SOUL.md` como archivo de persona. Para un perfil dedicado:
 
-1. Copiar [SOUL.md](SOUL.md) al directorio del perfil Hermes.
+1. Copiar [SOUL.md](SOUL.md) al directorio del perfil Hermes como prompt del sistema.
 2. Mantener esta carpeta `knowledge-base/` dentro del workspace accesible para el agente.
 3. Dar al agente herramientas de lectura/búsqueda de archivos, sin permisos de publicación automática.
 4. Probar las preguntas de aceptación incluidas al final de `SOUL.md`.
 
 Para un perfil privado de Roger/Enrique se puede montar esta carpeta completa con los controles del prompt. Para un agente expuesto al público no se deben indexar `_chat.txt`, [Transcripciones](transcripciones.md), los medios restringidos ni el catálogo completo sin generar antes una copia redactada. El prompt reduce divulgaciones accidentales, pero no sustituye la minimización de datos.
+
+Configuración pública recomendada: cargar únicamente `SOUL.md`, `piana-publico.md` y `glosario.md`. Configuración interna: añadir el canon, catálogo, preguntas y transcripciones sólo con autenticación y autorización explícitas.
